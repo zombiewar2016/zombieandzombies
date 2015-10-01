@@ -26,10 +26,11 @@ public class CharacterFactory implements ICharacterFactory{
   
   @Override
   public ICharacter make(String type) {
-    switch(type){
-      case "soldier"  : return new Soldier();
-      case "tank"     : return new Tank();
-    }
+    if (type=="soldier")
+    	return new Soldier();
+    else if (type=="tank")
+      return new Tank();
+    else
     return null;
   }
   
