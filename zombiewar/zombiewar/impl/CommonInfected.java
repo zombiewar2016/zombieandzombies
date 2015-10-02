@@ -5,14 +5,14 @@ import zombiewar.intf.IZombie;
 
 public class CommonInfected extends Character implements IZombie{
 
-	public CommonInfected() {
+	public CommonInfected(int health) {
 		super(100);
+		// TODO Auto-generated constructor stub
 	}
 
 	@Override
 	public void attack(ISurvivor survivor) {
-		// TODO Auto-generated method stub
-		
+		survivor.decreaseHealth(10);
 	}
 
 }

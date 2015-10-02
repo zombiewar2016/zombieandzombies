@@ -5,8 +5,8 @@ import zombiewar.intf.IZombie;
 
 public class Teacher extends Character implements ISurvivor{
 
-	Teacher() {
-		super(90);
+	Teacher(int health) {
+		super(health);
 		// TODO Auto-generated constructor stub
 	}
 
