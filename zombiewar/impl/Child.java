@@ -3,8 +3,7 @@ package zombiewar.impl;
 import zombiewar.intf.ISurvivor;
 import zombiewar.intf.IZombie;
 
-public class Child extends Character implements ISurvivor
-{
+public class Child extends Character implements ISurvivor{
 
 	Child() {
 		super(25);
@@ -13,7 +12,7 @@ public class Child extends Character implements ISurvivor
 
 	@Override
 	public void attack(IZombie zombie) {
-		// TODO Auto-generated method stub
+		zombie.decreaseHealth(1);
 		
 	}
 

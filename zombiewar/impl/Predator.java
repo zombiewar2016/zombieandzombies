@@ -13,7 +13,7 @@ public class Predator extends Character implements IZombie{
 	@Override
 	public void attack(ISurvivor survivor)
 	{
-		// TODO Auto-generated method stub
+		survivor.decreaseHealth(10);
 		
 	}
 
