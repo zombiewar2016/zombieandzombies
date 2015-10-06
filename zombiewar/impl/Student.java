@@ -1,7 +1,7 @@
-package zombiewar.impl;
+package impl;
 
-import zombiewar.intf.ISurvivor;
-import zombiewar.intf.IZombie;
+import intf.ISurvivor;
+import intf.IZombie;
 
 public class Student extends Character implements ISurvivor{
 

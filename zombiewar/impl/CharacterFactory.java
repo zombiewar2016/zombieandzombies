@@ -1,8 +1,8 @@
 
-package zombiewar.impl;
+package impl;
 
-import zombiewar.intf.ICharacter;
-import zombiewar.intf.ICharacterFactory;
+import intf.ICharacter;
+import intf.ICharacterFactory;
 /**
  *
  * @author thaoc

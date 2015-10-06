@@ -1,4 +1,4 @@
-package zombiewar.intf;
+package intf;
 
 /**
  * Zombie is a human who has been infected by the virus and is now a zombie.

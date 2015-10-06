@@ -1,4 +1,4 @@
-package zombiewar.intf;
+package intf;
 
 /**
  * Survivor is a human who hasn't been infected by the virus.

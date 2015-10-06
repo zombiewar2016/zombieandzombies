@@ -1,4 +1,4 @@
-package zombiewar.intf;
+package intf;
 
 /**
  * The ICharacter represents possible characters in the game.  

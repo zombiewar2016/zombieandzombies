@@ -1,10 +1,10 @@
-package zombiewar;
 
-import zombiewar.impl.CharacterFactory;
-import zombiewar.intf.ICharacter;
-import zombiewar.intf.ICharacterFactory;
-import zombiewar.intf.ISurvivor;
-import zombiewar.intf.IZombie;
+
+import impl.CharacterFactory;
+import intf.ICharacter;
+import intf.ICharacterFactory;
+import intf.ISurvivor;
+import intf.IZombie;
 
 /**
  *

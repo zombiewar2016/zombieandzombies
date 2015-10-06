@@ -1,6 +1,6 @@
-package zombiewar.impl;
+package impl;
 
-import zombiewar.intf.ICharacter;
+import intf.ICharacter;
 
 public abstract class Character implements ICharacter{
 	

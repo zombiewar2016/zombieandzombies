@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package zombiewar.impl;
+package impl;
 
-import zombiewar.intf.ISurvivor;
-import zombiewar.intf.IZombie;
+import intf.ISurvivor;
+import intf.IZombie;
 
 /**
  * A soldier is one of the strongest survivor because he wears armor 
