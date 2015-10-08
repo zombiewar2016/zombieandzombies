@@ -34,7 +34,7 @@ public class Main {
 		for (int i = 0; i < survivors.length; i++) {
 			int type = (int) (Math.random() * 3);
 			switch(type){
-			case 0: survivors[i] = (ISurvivor) factory.make("solider"); break;
+			case 0: survivors[i] = (ISurvivor)  factory.make("solider"); break;
 			case 1: survivors[i] = (ISurvivor) factory.make("teacher"); break;
 			case 2: survivors[i] = (ISurvivor) factory.make("student"); break;
 			case 3: survivors[i] = (ISurvivor) factory.make("child"); break;

@@ -7,7 +7,7 @@ package intf;
  * @author thaoc
  */
 
-public interface IZombie extends ICharacter{
+public interface  IZombie extends ICharacter{
 	
 	/**
 	 * Attack a survivor
