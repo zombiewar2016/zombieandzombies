@@ -4,7 +4,7 @@ import intf.ICharacter;
 
 public abstract class Character implements ICharacter{
 	
-	public int health;
+	private int health;
 	
 	Character(int health){
 		this.health = health;
@@ -20,5 +20,10 @@ public abstract class Character implements ICharacter{
 		return (health > 0);
 	}
 	
-	
+	public int getHealth(){
+		return health;
+	}
+	public void setHealth(int health){
+		this.health = health;
+	}
 }

@@ -16,4 +16,5 @@ public class Child extends Character implements ISurvivor{
 		
 	}
 
+
 }

@@ -11,7 +11,6 @@ package intf;
 
 
 public interface ICharacter {
-	
 	/**
 	 * decrease in health as a result of being attacked.
 	 * 
@@ -24,4 +23,7 @@ public interface ICharacter {
 	 * @return true if still alive.
 	 */
 	public boolean isAlive();
+	
+	public int getHealth();
+	public void setHealth(int health);
 }
