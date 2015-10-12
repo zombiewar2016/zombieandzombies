@@ -7,7 +7,7 @@ public class Predator extends Character implements IZombie{
 
 	public Predator()
 	{
-		super(120);
+		super(120, 3);
 	}
 
 	@Override

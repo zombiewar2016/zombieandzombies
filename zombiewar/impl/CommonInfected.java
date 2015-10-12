@@ -6,7 +6,7 @@ import intf.IZombie;
 public class CommonInfected extends Character implements IZombie{
 
 	public CommonInfected() {
-		super(100);
+		super(100, 1);
 	}
 
 	@Override

@@ -7,7 +7,7 @@ import intf.IZombie;
 public class Child extends Character implements ISurvivor{
 
 	Child() {
-		super(25);
+		super(25, 1);
 		// TODO Auto-generated constructor stub
 	}
 

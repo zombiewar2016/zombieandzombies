@@ -6,7 +6,7 @@ import intf.IZombie;
 public class Teacher extends Character implements ISurvivor{
 
 	Teacher() {
-		super(90);
+		super(90, 2);
 	}
 
 	@Override

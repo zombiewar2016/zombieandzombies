@@ -5,9 +5,12 @@ import intf.ICharacter;
 public abstract class Character implements ICharacter{
 	
 	private int health;
+	private int attackStrength;
+	private int index;
 	
-	Character(int health){
+	Character(int health, int attack){
 		this.health = health;
+		attackStrength = attack;
 	}
 
 	@Override
@@ -26,7 +29,16 @@ public abstract class Character implements ICharacter{
 	public void setHealth(int health){
 		this.health = health;
 	}
+	public int getAttackStrength(){
+		return attackStrength;
+	}
 	public void Attack(ICharacter target){
-		
+		target.decreaseHealth(attackStrength);
+	}
+	public int getIndex(){
+		return index;
+	}
+	public void setIndex(int index){
+		this.index = index;
 	}
 }

@@ -26,4 +26,6 @@ public interface ICharacter {
 	
 	public int getHealth();
 	public void setHealth(int health);
+	public int getIndex();
+	public void setIndex(int index);
 }

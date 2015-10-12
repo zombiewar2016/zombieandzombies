@@ -15,7 +15,7 @@ public class Tank extends Character implements IZombie{
 	 * A tank starts with 150 points of health
 	 */
 	public Tank() {
-		super(150);
+		super(150, 2);
 	}
 
 	/**
