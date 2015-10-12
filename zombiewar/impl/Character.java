@@ -26,4 +26,7 @@ public abstract class Character implements ICharacter{
 	public void setHealth(int health){
 		this.health = health;
 	}
+	public void Attack(ICharacter target){
+		
+	}
 }

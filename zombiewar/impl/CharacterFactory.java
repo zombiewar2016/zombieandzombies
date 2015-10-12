@@ -30,7 +30,7 @@ public class CharacterFactory implements ICharacterFactory{
 
 		// Zombie Creation
 		case "tank"     : return new Tank();
-		case "Common Infected" : return new CommonInfected();
+		case "common" : return new CommonInfected();
 		case "predator" : return new Predator();
 
 		// Survivor Creation

@@ -1,5 +1,6 @@
 package impl;
 
+import intf.ICharacter;
 import intf.ISurvivor;
 import intf.IZombie;
 

@@ -18,7 +18,7 @@ public class Main {
 		int numZombies = (int) (Math.random() * 10);
 		IZombie[] zombies = new IZombie[numZombies];
 		for (int i = 0; i < zombies.length; i++) {
-			int zombieType = (int) (Math.random() * 2);
+			int zombieType = (int) (Math.random() * 3);
 			switch(zombieType){
 			case 0: zombies[i] = (IZombie) factory.make("common"); break;
 			case 1: zombies[i] = (IZombie) factory.make("tank"); break;
@@ -32,9 +32,9 @@ public class Main {
 		int numZombies = (int) (Math.random() * 20);
 		ISurvivor[] survivors = new ISurvivor[numZombies];
 		for (int i = 0; i < survivors.length; i++) {
-			int type = (int) (Math.random() * 3);
+			int type = (int) (Math.random() * 4);
 			switch(type){
-			case 0: survivors[i] = (ISurvivor)  factory.make("solider"); break;
+			case 0: survivors[i] = (ISurvivor)  factory.make("soldier"); break;
 			case 1: survivors[i] = (ISurvivor) factory.make("teacher"); break;
 			case 2: survivors[i] = (ISurvivor) factory.make("student"); break;
 			case 3: survivors[i] = (ISurvivor) factory.make("child"); break;
@@ -49,6 +49,8 @@ public class Main {
 			if (characters[i] != null)
 			{
 				allDead &= !characters[i].isAlive();
+			}else{
+				System.out.println("Null found");
 			}
 		}
 		return allDead;
@@ -88,4 +90,11 @@ public class Main {
 		}
 	}
 
+	public static void FightResolution(ISurvivor[] survivors, IZombie[] zombies){
+		for(int survivorIndex=0; survivorIndex<survivors.length; survivorIndex++){
+			for(int zombieIndex=0; zombieIndex<zombies.length; zombieIndex++){
+				
+			}
+		}
+	}
 }
